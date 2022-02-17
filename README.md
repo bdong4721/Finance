@@ -1,2 +1,2 @@
 # Finance
-Stock market trading
+Stock market trading algorithm
