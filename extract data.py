@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 
 df = pd.read_fwf('NDX_1min.txt', sep=" ", header =None, names = ['Date', 'Time', 'Open', 'High', 'Low', 'Close', 'Volume']
-print(df[687733:982719])
+df_final = df.loc[[687733:982719], :]
 """"
 with open('NDX_1min.txt') as f:
     lines = f.readline()
